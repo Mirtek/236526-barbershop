@@ -4,6 +4,7 @@ body {
 	line-height: 24px;
 	font-weight: bold;
 	color: #000;
+	margin: 0;
 }
 
 h1 {
@@ -16,4 +17,68 @@ h2 {
 	font-size: 24px;
 	line-height: 30px;
 	color: #000;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.main-header {
+	min-height: 70px;
+	background-color: #00aa00;
+	margin-bottom: 60px;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.main-wrap {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.main-navigation > ul > li {
+	float: left;
+}
+.main-navigation > a {
+	float: left;
+}
+.main-navigation {
+	float: left;
+	width: 780px;
+}
+.user-block {
+	float: right;
+	width: 140px;
+}
+
+.breadcrumbs > ul {
+	padding:0;
+	margin:0;
+}
+.breadcrumbs > ul > li {
+	display: inline;
+}
+.breadcrumbs{
+	margin-bottom: 60px;
+}
+figure {
+	margin:0;
+	padding:0;
+}
+.huge-img {
+	border: 1px solid black;
+}
+
+.column-1 {
+	float: left;
+	width: 460px;
+}
+.column-2 {
+	float: right;
+	width: 390px;
 }

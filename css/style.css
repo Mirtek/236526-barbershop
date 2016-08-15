@@ -32,8 +32,6 @@ figure {
 
 .main-header {
 	min-height: 70px;
-	background-color: #ababab; /* осторожно, покрашено */
-	margin-bottom: 60px;
 }
 
 .container {
@@ -42,14 +40,16 @@ figure {
 }
 
 .main-wrap {
-	width: 940px;
-	margin: 0 auto;
+	padding-top: 60px;
 }
 
 .main-navigation > ul > li {
 	float: left;
 }
 
+.main-navigation > ul{
+	list-style: none;
+}
 .main-navigation > a {
 	float: left;
 }
@@ -78,7 +78,7 @@ figure {
 }
 
 .huge-img, .thumb-img {
-	border: 1px solid black; /* вспомогательный, удобнее*/
+	/* тут будет рамка красивая когда-то*/
 }
 
 .column-1 {
@@ -92,7 +92,6 @@ figure {
 }
 
 footer.main-footer {
-	background-color: #bebebe; /* осторожно, покрашено */
 	margin-top: 50px;
 	padding-top: 60px;
 	padding-bottom: 40px;
@@ -124,7 +123,18 @@ section.footer-copyright {
 }
 
 .main-pagination {
-	margin-left: 220px;
+	margin-left: 200px;
+}
+
+.main-pagination > ul {
+	margin: 0;
+	list-style: none;
+}
+
+.main-pagination > ul > li {
+	padding-top: 45px;
+	padding-left: 0;
+	float: left;
 }
 
 .container-products {

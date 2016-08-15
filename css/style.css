@@ -4,6 +4,7 @@ body {
 	line-height: 24px;
 	font-weight: bold;
 	color: #000;
+	margin: 0;
 }
 
 h1 {
@@ -16,4 +17,136 @@ h2 {
 	font-size: 24px;
 	line-height: 30px;
 	color: #000;
+}
+
+figure {
+	margin:0;
+	padding:0;
+}
+
+.clearfix::after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+.main-header {
+	min-height: 70px;
+}
+
+.container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.main-wrap {
+	padding-top: 60px;
+}
+
+.main-navigation > ul > li {
+	float: left;
+}
+
+.main-navigation > ul{
+	list-style: none;
+}
+.main-navigation > a {
+	float: left;
+}
+
+.main-navigation {
+	float: left;
+	width: 780px;
+}
+
+.user-block {
+	float: right;
+	width: 140px;
+}
+
+.breadcrumbs > ul {
+	padding:0;
+	margin:0;
+}
+
+.breadcrumbs > ul > li {
+	display: inline;
+}
+
+.breadcrumbs{
+	margin-bottom: 60px;
+}
+
+.huge-img, .thumb-img {
+	/* тут будет рамка красивая когда-то*/
+}
+
+.column-1 {
+	float: left;
+	width: 460px;
+}
+
+.column-2 {
+	float: right;
+	width: 390px;
+}
+
+footer.main-footer {
+	margin-top: 50px;
+	padding-top: 60px;
+	padding-bottom: 40px;
+}
+
+section.footer-contacts {
+	float: left;
+	padding-right: 80px;
+}
+
+section.footer-social {
+	float: left;
+	padding-right: 260px;
+}
+
+section.footer-copyright {
+	float: left;
+}
+
+.container-form {
+	float: left;
+	width: 220px;
+	padding-right: 20px;
+}
+
+.container-products {
+	float: left;
+	width: 700px;
+}
+
+.main-pagination {
+	margin-left: 200px;
+}
+
+.main-pagination > ul {
+	margin: 0;
+	list-style: none;
+}
+
+.main-pagination > ul > li {
+	padding-top: 45px;
+	padding-left: 0;
+	float: left;
+}
+
+.container-products {
+	font-size: 0px;
+}
+
+.product-thumbnail {
+	font-size: 14px;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.product-thumbnail:nth-of-type(3n){
+	margin-right: 0;
 }
